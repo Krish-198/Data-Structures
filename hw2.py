@@ -34,7 +34,7 @@ class Queue:
 def add_queues(queue1,queue2):
 
     if queue1.size != queue2.size:
-        raise ValueError("Queues must be of the same length")
+        print("Queues must be of the same length")
         
     result_queue = Queue(queue1.size)
     
